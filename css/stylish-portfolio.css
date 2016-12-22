@@ -17,6 +17,7 @@ body {
 }
 
 .text-vertical-center {
+    color: white;
     display: table-cell;
     text-align: center;
     vertical-align: middle;
@@ -155,7 +156,8 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background-color: #0F2C34;
+    /*background: url(../img/bg.jpg) no-repeat center center scroll;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -163,19 +165,49 @@ hr.small {
 }
 
 /* About */
-
 .about {
     padding: 50px 0;
 }
 
-/* Services */
+/* Collaboration */
+#collaboration img {
+  max-width: 350px;
+}
 
+#collaboration .partners {
+  margin: 5vh;
+}
+
+/* Services */
 .services {
     padding: 50px 0;
 }
 
 .service-item {
     margin-bottom: 30px;
+}
+
+/* Follow */
+#follow {
+    padding: 50px 0;
+}
+
+/* Code of Conduct */
+#code-conduct {
+    padding: 50px 0;
+}
+
+/* School */
+#school {
+    display: table;
+    width: 100%;
+    height: 600px;
+    color: #fff;
+    background: url(../img/inp_school.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 /* Callout */
