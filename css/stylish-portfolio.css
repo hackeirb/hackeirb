@@ -16,6 +16,10 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.bg-primary {
+  background-color: #0F2C34;
+}
+
 .text-vertical-center {
     color: white;
     display: table-cell;
@@ -189,7 +193,11 @@ hr.small {
 
 /* Follow */
 #follow {
-    padding: 50px 0;
+  padding: 50px 0;
+}
+
+#follow .fa {
+  color: #0F2C34;
 }
 
 /* Code of Conduct */
@@ -272,6 +280,10 @@ hr.small {
 
 footer {
     padding: 100px 0;
+}
+
+footer .fa {
+  color: #0F2C34;
 }
 
 #to-top {
