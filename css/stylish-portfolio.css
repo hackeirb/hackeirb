@@ -160,22 +160,165 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: #0F2C34;
-    /*background: url(../img/bg.jpg) no-repeat center center scroll;*/
+    /*background-color: #0F2C34;*/
+    background: url(../img/bg.jpg) no-repeat center center scroll;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
+/* Scrolling Icon */
+#wave-wrapper {
+  text-align: center;   /* to center child icon wave-scroll*/
+}
+
+#wave-scroll {
+  display: inline-block;
+  position: fixed;
+  bottom: 20%;
+}
+
+#bird-scroll a {
+	padding-top: 70px;
+}
+#bird-scroll a span {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 3em;
+	height: 3em;
+	margin-left: -12px;
+	border-left: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	-webkit-transform: rotateZ(-45deg);
+	transform: rotateZ(-45deg);
+	-webkit-animation: sdb06 1.5s infinite;
+	animation: sdb06 1.5s infinite;
+	box-sizing: border-box;
+}
+@-webkit-keyframes sdb06 {
+	0% {
+		-webkit-transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+		opacity: 0;
+	}
+}
+@keyframes sdb06 {
+	0% {
+		transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+		opacity: 0;
+	}
+}
+
+#wave-scroll a {
+	padding-top: 60px;
+}
+#wave-scroll a span {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 4em;
+	height: 4em;
+	margin-left: -23px;
+	border: 2px solid #fff;
+	border-radius: 100%;
+	box-sizing: border-box;
+}
+#wave-scroll a span::after {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	content: '';
+	/*width: 16px;
+	height: 16px;*/
+  width: 1em;
+  height: 1em;
+	margin: -12px 0 0 -8px;
+	border-left: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	box-sizing: border-box;
+}
+#wave-scroll a span::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	content: '';
+	width: 4em;
+	height: 4em;
+	box-shadow: 0 0 0 0 rgba(255,255,255,.1);
+	border-radius: 100%;
+	opacity: 0;
+	-webkit-animation: sdb03 3s infinite;
+	animation: sdb03 3s infinite;
+	box-sizing: border-box;
+}
+@-webkit-keyframes sdb03 {
+	0% {
+		opacity: 0;
+	}
+	30% {
+		opacity: 1;
+	}
+	60% {
+		box-shadow: 0 0 0 60px rgba(255,255,255,.1);
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@keyframes sdb03 {
+	0% {
+		opacity: 0;
+	}
+	30% {
+		opacity: 1;
+	}
+	60% {
+		box-shadow: 0 0 0 60px rgba(255,255,255,.1);
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+#wave-wrapper {
+  text-align: center;   /* to center child icon wave-scroll*/
+}
+
+#wave-scroll {
+  display: inline-block;
+  position: fixed;
+  bottom: 20%;
+}
+
 /* About */
 .about {
     padding: 50px 0;
+    position: relative;
 }
 
 /* Collaboration */
 #collaboration img {
-  max-width: 350px;
+  max-width: 30vw;
 }
 
 #collaboration .partners {
@@ -185,15 +328,23 @@ hr.small {
 /* Services */
 .services {
     padding: 50px 0;
+    position: relative;
 }
 
 .service-item {
     margin-bottom: 30px;
 }
 
+#services img {
+  overflow: hidden;
+  border-radius:50%;
+  max-width: 100%;
+}
+
 /* Follow */
 #follow {
   padding: 50px 0;
+  position: relative;
 }
 
 #follow .fa {
@@ -203,6 +354,7 @@ hr.small {
 /* Code of Conduct */
 #code-conduct {
     padding: 50px 0;
+    position: relative;
 }
 
 /* School */
@@ -216,6 +368,7 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    position: relative;
 }
 
 /* Callout */
@@ -230,12 +383,13 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    position: relative;
 }
 
-/* Portfolio */
-
+/* Gallery */
 .portfolio {
     padding: 50px 0;
+    position: relative;
 }
 
 .portfolio-item {
@@ -250,6 +404,21 @@ hr.small {
     opacity: 0.8;
 }
 
+#gallery img {
+  max-height: 500px;
+}
+
+/* Team */
+#team {
+  position: relative;
+}
+
+#team img {
+  overflow: hidden;
+  border-radius:50%;
+  max-width: 100%;
+}
+
 /* Call to Action */
 
 .call-to-action {
@@ -261,6 +430,9 @@ hr.small {
 }
 
 /* Map */
+#map {
+  position: relative;
+}
 
 .map {
     height: 500px;
@@ -279,7 +451,8 @@ hr.small {
 /* Footer */
 
 footer {
-    padding: 100px 0;
+  position: relative;
+  padding: 100px 0;
 }
 
 footer .fa {

@@ -59,11 +59,17 @@
     </nav>
 
     <!-- Header -->
-    <header id="top" class="header">
+    <header id="hero" class="header">
         <div class="text-vertical-center">
             <h1>Hackeirb</h1>
             <h3>Get involved. Go see the world.</h3>
+            <h3><a href="http://git-merge.com/">GitMerge 2017</a></h3>
+            <div id="wave-scroll">
+              <a href="#about"><span></span></a>
+            </div>
+          </div>
         </div>
+        <div class="wave-wrapper">
     </header>
 
     <!-- About -->
@@ -87,7 +93,7 @@
     </section>
 
     <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
+    <section id="gallery" class="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
@@ -99,28 +105,28 @@
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                                    <img class="img-portfolio img-responsive" src="img/gallery/1.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+                                    <img class="img-portfolio img-responsive" src="img/gallery/2.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+                                    <img class="img-portfolio img-responsive" src="img/gallery/3.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+                                    <img class="img-portfolio img-responsive" src="img/gallery/4.jpg">
                                 </a>
                             </div>
                         </div>
@@ -146,8 +152,7 @@
                         <div class="col-md-offset-1 col-md-2 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-users fa-stack-1x text-primary"></i>
+                                <i class="fa fa-stack-1x text-primary"><img src="img/services/chill.jpg"></i>
                             </span>
                                 <h4>
                                     <strong>Chill</strong>
@@ -159,8 +164,7 @@
                         <div class="col-md-2 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-home fa-stack-1x text-primary"></i>
+                                <i class="fa fa-stack-1x text-primary"><img src="img/services/localhost.jpg"></i>
                             </span>
                                 <h4>
                                     <strong>Localhost</strong>
@@ -172,8 +176,7 @@
                         <div class="col-md-2 col-sm-12">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                                <i class="fa fa-stack-1x text-primary"><img src="img/services/hackbordeaux.png"></i>
                             </span>
                                 <h4>
                                     <strong>HackBordeaux</strong>
@@ -185,8 +188,7 @@
                         <div class="col-md-2 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-handshake-o fa-stack-1x text-primary"></i>
+                                <i class="fa fa-stack-1x text-primary"><img src="img/services/hello.jpg"></i>
                             </span>
                                 <h4>
                                     <strong>Hello</strong>
@@ -198,8 +200,7 @@
                         <div class="col-md-2 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-globe fa-stack-1x text-primary"></i>
+                                <i class="fa fa-stack-1x text-primary"><img src="img/services/world.jpg"></i>
                             </span>
                                 <h4>
                                     <strong>World</strong>
@@ -248,7 +249,7 @@
                             <a href="#"><i class="fa fa-medium fa-fw fa-3x"></i></a>
                         </li>
                     </ul>
-                    <a href="#" class="btn btn-lg btn-dark">Actualités!</a>
+                    <a href="#hero" class="btn btn-lg btn-dark">Actualités!</a>
                 </div>
             </div>
         </div>
@@ -266,8 +267,7 @@
                         <div class="col-md-offset-1 col-md-2 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                                <i class="fa fa-stack-1x text-primary"><img src="img/team/maxime.jpg"></i>
                             </span>
                                 <h4>
                                     <strong>Maxime</strong>
@@ -279,8 +279,7 @@
                         <div class="col-md-2 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                                <i class="fa fa-stack-1x text-primary"><img src="img/team/mael.jpg"></i>
                             </span>
                                 <h4>
                                     <strong>Mael</strong>
@@ -292,8 +291,7 @@
                         <div class="col-md-2 col-sm-12">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                                <i class="fa fa-stack-1x text-primary"><img src="img/team/jimmy.jpg"></i>
                             </span>
                                 <h4>
                                     <strong>Jimmy</strong>
@@ -305,11 +303,10 @@
                         <div class="col-md-2 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                                <i class="fa fa-stack-1x text-primary"><img src="img/team/jeff.jpg"></i>
                             </span>
                                 <h4>
-                                    <strong>Foo</strong>
+                                    <strong>Jeff</strong>
                                 </h4>
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
                                 <a href="#" class="btn btn-light">Learn More</a>
@@ -318,11 +315,10 @@
                         <div class="col-md-2 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
+                                <i class="fa fa-stack-1x text-primary"><img src="img/team/test.jpg"></i>
                             </span>
                                 <h4>
-                                    <strong>Bar</strong>
+                                    <strong>Foobar</strong>
                                 </h4>
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
                                 <a href="#" class="btn btn-light">Learn More</a>
@@ -362,7 +358,7 @@
             <!-- /.row -->
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <a href="#services" class="btn btn-lg btn-dark">Contactez-nous!</a>
+                    <a href="mailto:info@hackeirb.com" class="btn btn-lg btn-dark">Contactez-nous!</a>
                 </div>
             </div>
         </div>
@@ -398,7 +394,7 @@
     </aside>
 
     <!-- Map -->
-    <section id="contact" class="map">
+    <section id="map" class="map">
         <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Enseirb-Matmeca,Talence,+33400&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
         <br />
         <small>
@@ -458,6 +454,13 @@
 
     <!-- Custom Theme JavaScript -->
     <script>
+
+    //Anchor smooth animated scroll
+    $("a[href*='#']").on('click', function(e) {
+      e.preventDefault();
+      $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+    });
+
     // Closes the sidebar menu
     $("#menu-close").click(function(e) {
         e.preventDefault();
