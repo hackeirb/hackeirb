@@ -361,7 +361,7 @@ hr.small {
 #school {
     display: table;
     width: 100%;
-    height: 600px;
+    height: 500px;
     color: #fff;
     background: url(../img/inp_school.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -371,14 +371,13 @@ hr.small {
     position: relative;
 }
 
-/* Callout */
-
-.callout {
+/* Inspire */
+#inspire {
     display: table;
     width: 100%;
-    height: 400px;
+    height: 500px;
     color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
+    background: url(../img/inspire.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
