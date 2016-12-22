@@ -175,7 +175,7 @@ hr.small {
 
 /* Collaboration */
 #collaboration img {
-  max-width: 350px;
+  max-width: 300vh;
 }
 
 #collaboration .partners {
