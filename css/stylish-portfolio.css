@@ -316,6 +316,12 @@ hr.small {
     position: relative;
 }
 
+/* About */
+.news {
+    padding-bottom: 50px;
+    position: relative;
+}
+
 /* Collaboration */
 #collaboration img {
   max-width: 30vw;
